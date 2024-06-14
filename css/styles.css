@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+  
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b7929fa6-778e-4544-900d-ec416e8bf350/dexjef5-da7fbb8d-a404-487c-9675-e828507db393.png/v1/fill/w_1280,h_545,q_80,strp/background_spirit_by_horseheart36_dexjef5-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTQ1IiwicGF0aCI6IlwvZlwvYjc5MjlmYTYtNzc4ZS00NTQ0LTkwMGQtZWM0MTZlOGJmMzUwXC9kZXhqZWY1LWRhN2ZiYjhkLWE0MDQtNDg3Yy05Njc1LWU4Mjg1MDdkYjM5My5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.Qvfz5f7qKFHoATkKii2ARrlyjIepsgo6PaZnCDbhx84);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.grass{
+    height: 200px;
+    width: 500%;
+    background-image: url(mountain-idea-meadow-and-mountains-png-1fb62adfe1a68ab230dbdb4ce413e4a7.png);
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+
+}
