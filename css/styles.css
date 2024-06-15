@@ -1,4 +1,5 @@
 *{
+    padding: 0;
     margin: 0;
   
 }
@@ -14,15 +15,24 @@
     overflow: hidden;
 }
 
-.grass{
-    height: 200px;
-    width: 500%;
-    background-image: url(mountain-idea-meadow-and-mountains-png-1fb62adfe1a68ab230dbdb4ce413e4a7.png);
-    display: block;
+.spirit{
+    width: 400px;
+    left: 50%;
+    bottom: 100px;
+    transform: translateX(-50%);
     position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
     z-index: 1;
+    background-repeat: repeat-x;
+    animation: horse 5s linear infinite;
 
+}
+
+@keyframes horse {
+    100%{ 
+        transform: translateX(3400px);
+    }
+}
+
+.spirit img {
+    width: 100%;
 }
